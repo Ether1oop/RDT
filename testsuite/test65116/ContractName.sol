@@ -1,0 +1,147 @@
+//SPDX-License-Identifier: GPL-3.0
+pragma solidity ^0.4.0;
+contract ContractName{
+	
+	int256  public a = 175;
+
+	uint256  public b = 154;
+
+	int256  public c = 165;
+
+	int256  public d = 79;
+
+	int256  public e = 10;
+event testtest(int256 a,uint256 b,int256 c,int256 d,int256 e);
+function func_a() public 
+{
+	int256 l_a = 82;
+
+	uint256 l_b = 180;
+
+a = int256(l_a);
+emit testtest(a,b,c,d,e);
+
+}
+function func_b() public 
+{
+	uint256 l_a = 165;
+
+	uint256 l_b = 102;
+
+b = uint256(c);
+emit testtest(a,b,c,d,e);
+
+}
+function func_c() public 
+{
+	uint256 l_a = 11;
+
+	int256 l_b = 82;
+
+b = uint256(d);
+
+if((int256(b)!=int256(c)))
+{
+a = int256(a);
+for(uint256 for_a=0;for_a<10;for_a++)
+{
+
+if((int256(l_b)>int256(b)))
+{for(uint256 for_b=0;for_b<4;for_b++)
+{
+
+l_a = uint256(a);
+
+a = int256(l_a);
+
+l_b = int256(a);
+
+b = uint256(d);
+
+b = uint256(l_a);
+
+b = uint256(b);
+ 
+ }
+
+if((int256(l_b)==int256(e)))
+{
+d = int256(e);
+
+e = int256(a);
+
+l_a = uint256(b);
+
+d = int256(a);
+
+l_b = int256(e);
+
+l_b = int256(l_b);
+
+d = int256(a);
+
+c = int256(l_a);
+
+break;
+}
+
+l_b = int256(a);
+
+if((int256(l_a)>int256(e)))
+{
+l_a = uint256(c);
+
+b = uint256(a);
+
+l_a = uint256(d);
+}
+
+if((int256(a)>int256(b)))
+{
+d = int256(b);
+
+c = int256(e);
+
+c = int256(a);
+
+b = uint256(l_a);
+
+l_a = uint256(a);
+
+b = uint256(b);
+
+e = int256(a);
+
+b = uint256(l_b);
+
+b = uint256(b);
+}
+
+break;
+}
+
+l_b = int256(a);
+ 
+ }
+
+l_a = uint256(b);
+}
+
+if((int256(d)==int256(a)))
+{
+d = int256(a);
+
+d = int256(c);
+
+b = uint256(l_b);
+
+l_b = int256(e);
+
+b = uint256(e);
+
+l_a = uint256(l_b);
+}
+emit testtest(a,b,c,d,e);
+
+}
+}
